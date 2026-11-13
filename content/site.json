@@ -1,0 +1,46 @@
+{
+  "title": "Canvas · 可自定义个人站点",
+  "brandMark": "R",
+  "brandName": "郝欣雨の博客",
+  "tagline": "独立思考、自由记录与工程实验的自留地",
+  "siteUrl": "https://raine-x.github.io",
+  "footerText": "由自研轻量引擎构建 · 纯 Markdown 驱动 ",
+  "theme": {
+    "preset": "paper",
+    "colorMode": "auto",
+    "accent": "#ea580c",
+    "font": "sans",
+    "maxWidth": "960px",
+    "radius": "10px",
+    "customColors": {},
+    "motion": "blur-in"
+  },
+  "nav": [
+    {
+      "label": "首页",
+      "href": "/"
+    },
+    {
+      "label": "作品",
+      "href": "/works"
+    },
+    {
+      "label": "文章",
+      "href": "/posts"
+    },
+    {
+      "label": "关于",
+      "href": "/about"
+    }
+  ],
+  "socials": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/raine-x"
+    },
+    {
+      "label": "Gitee",
+      "url": "https://gitee.com/cola_estarhy"
+    }
+  ]
+}

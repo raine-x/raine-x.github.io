@@ -1,0 +1,9 @@
+{
+  "id": "posts",
+  "title": "技术与思考",
+  "description": "技术笔记、项目复盘与随笔记录",
+  "route": "/posts",
+  "defaultView": "list",
+  "itemPrefix": "LOG",
+  "sortBy": "date"
+}

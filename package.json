@@ -1,0 +1,16 @@
+{
+  "name": "custom-site-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "轻量级自研静态站点引擎 + 本地可视化工作台（零前端框架运行时，纯 Markdown 内容驱动）",
+  "scripts": {
+    "dev": "node engine/dev-server.mjs",
+    "build": "node engine/builder.mjs",
+    "preview": "node engine/preview-server.mjs"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.11.1",
+    "marked": "^15.0.0"
+  }
+}

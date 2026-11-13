@@ -1,0 +1,92 @@
+{
+  "slug": "home",
+  "title": "首页",
+  "description": "个人主页、作品实验室与技术笔记",
+  "blocks": [
+    {
+      "id": "hero-1",
+      "type": "hero",
+      "data": {
+        "badge": "RaineBlog · 2026",
+        "title": "欢迎来到我的主页",
+        "subtitle": "在校学生 / AI 辅助开发实践者。在这里展示我的个人项目、实验原型与技术思考。此博客由自研博客编辑程序制作。",
+        "primaryBtn": {
+          "label": "我的作品",
+          "href": "/works"
+        },
+        "secondaryBtn": {
+          "label": "阅读文章",
+          "href": "/posts"
+        },
+        "align": "center"
+      },
+      "style": {
+        "width": "",
+        "surface": "",
+        "spacing": "",
+        "scale": "",
+        "align": "center"
+      },
+      "hidden": false
+    },
+    {
+      "id": "bento-1",
+      "type": "bento",
+      "data": {
+        "title": "此刻状态",
+        "columns": 2,
+        "cards": [
+          {
+            "label": "主力方式",
+            "value": "AI 辅助工程开发",
+            "note": "拆解需求、架构设计与快速原型验证",
+            "href": ""
+          },
+          {
+            "label": "最新实验",
+            "value": "自研轻量静态引擎",
+            "note": "积木拼装页面 · 本地 /studio 可视化编辑",
+            "href": "/works/custom-site-engine"
+          },
+          {
+            "label": "写作习惯",
+            "value": "100% 纯 Markdown",
+            "note": "支持 Obsidian / Typora 与网页端互通",
+            "href": "/posts/why-i-built-my-own-engine"
+          }
+        ]
+      },
+      "style": {
+        "span": 12
+      }
+    },
+    {
+      "id": "feed-works",
+      "type": "collection-feed",
+      "data": {
+        "title": "精选作品与实验",
+        "subtitle": "每个条目都可以关联对应的技术复盘文章",
+        "collection": "works",
+        "view": "grid",
+        "limit": 4,
+        "featuredOnly": true,
+        "moreLabel": "全部作品",
+        "moreHref": "/works"
+      }
+    },
+    {
+      "id": "feed-posts",
+      "type": "collection-feed",
+      "data": {
+        "title": "最新笔记与复盘",
+        "subtitle": "按时间倒序展示，可随时在 Studio 改成时间轴或卡片视图",
+        "collection": "posts",
+        "view": "list",
+        "limit": 5,
+        "featuredOnly": false,
+        "moreLabel": "全部文章",
+        "moreHref": "/posts"
+      }
+    }
+  ]
+}

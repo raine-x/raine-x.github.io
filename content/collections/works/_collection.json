@@ -1,0 +1,9 @@
+{
+  "id": "works",
+  "title": "作品与实验",
+  "description": "个人项目、原型实验与工程拆解档案",
+  "route": "/works",
+  "defaultView": "grid",
+  "itemPrefix": "PRJ",
+  "sortBy": "order"
+}
